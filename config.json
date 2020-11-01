@@ -11,14 +11,14 @@
 		"blog_naam": "First Blog",
 		"tag_line": "Learn to Grow",
 		"tab_name": "Home",
-		"gmail-user":"viratsharma1800@gmail.com",
-		"gmail-password":"qwty umnb vcxz",
+		"gmail-user":"your@email.com",
+		"gmail-password":"your password",
 		"about_text": "Hi I am Tanishq Yadav It is too cold today. We don't know tomorrow",
 		"no_of_post": 3,
 		"login_pic": "login.svg",
 		"admin_user": "tanishq12",
 		"admin_password": "tanishq@1",
-		"upload_location":"E:\\Maths\\html_web\\blog\\static"
+		"upload_location":"E:\\blog\\static"
 
 	}
 
