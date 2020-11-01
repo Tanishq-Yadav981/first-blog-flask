@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v4.1.1">
+    <title>Login</title>
+    <!-- <link rel="stylesheet" type="text/css" href= "{{url_for('static',filename='css/logins.css')}}"> -->
+ </head>
+  <body class="text-center">
+    <form class="form-signin" action="/dashboard" method="post">
+
+        <!-- <% set fname='img/'+params['login_pic'] %> -->
+
+        <img class="mb-4" src="{{url_for('static',filename='img/login.svg')}}" alt="" width="72" height="72">
+        <h1 class="h3_mb-3_font-weight-normal">Admin login</h1>
+        <label for="inputEmail" class="sr-only"></label>
+        <input type="text" id="inputEmail" name="Uemail" class="form-control" placeholder="Username" required autofocus><br><br>
+        <label for="inputPassword" class="sr-only"></label>
+        <input type="password" id="inputPassword" name="Upassword" class="form-control" placeholder="Password" required>
+        <div class="checkbox mb-3">
+          <label>
+            <input type="checkbox" value="remember-me"> Remember me
+          </label>
+        </div>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+        <p class="mt-5_mb-3_text-muted">&copy; {{params['blog_naam']}} 2020</p>
+    </form>
+</body>
+</html>
+
